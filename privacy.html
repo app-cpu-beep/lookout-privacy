@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LOOKOUT 개인정보처리방침</title>
+<style>
+  :root { --fg:#111; --muted:#555; --line:#ddd; --bg:#fff; }
+  @media (prefers-color-scheme: dark) { :root { --fg:#eee; --muted:#aaa; --line:#333; --bg:#111; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font-family:-apple-system, "Pretendard", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; line-height:1.7; word-break:keep-all; }
+  main { max-width:720px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { font-size:1.6rem; letter-spacing:.02em; margin:0 0 4px; }
+  h2 { font-size:1.15rem; margin:36px 0 8px; padding-top:16px; border-top:1px solid var(--line); }
+  p, li { font-size:.98rem; }
+  .muted { color:var(--muted); font-size:.9rem; }
+  .table { overflow-x:auto; }
+  table { border-collapse:collapse; width:100%; min-width:560px; font-size:.9rem; }
+  th, td { border:1px solid var(--line); padding:8px; vertical-align:top; text-align:left; }
+  th { white-space:nowrap; }
+  a { color:inherit; }
+</style>
+</head>
+<body>
+<main>
+<h1>LOOKOUT 개인정보처리방침</h1>
+<p class="muted">운영자: 코지샌드 · 시행일 2026년 11월 10일</p>
+
+<p>LOOKOUT(이하 "앱")은 오늘 날씨와 사용자의 체형에 맞는 옷을 추천하는 앱입니다. 앱은 회원가입이 없고, 사진과 신체 정보는 기기 밖으로 보내지 않습니다. 이 방침은 앱이 어떤 정보를 어디에서 처리하는지 알려 드립니다.</p>
+
+<h2>1. 기기 안에서만 처리하는 정보 (수집하지 않음)</h2>
+<ul>
+  <li>전신 사진, 옷 사진(내 옷장)</li>
+  <li>키·몸무게 등 입력한 신체 정보, 사진에서 분석한 체형·치수·얼굴형·피부톤</li>
+  <li>성별 표시·좋아하는 스타일 등 설정, 고른 코디 기록</li>
+  <li>마지막으로 받은 날씨와 그때의 대략적인 좌표·지역 이름(홈 화면 위젯과 아침 알림에 쓰기 위해)</li>
+</ul>
+<p>이 정보는 사용자의 기기 안에서만 저장·분석하며 운영자를 포함해 누구에게도 보내지 않습니다. 이 정보는 Android와 iOS 모두 기기 백업(클라우드 백업)에서도 제외됩니다. 앱을 삭제하면 함께 지워집니다.</p>
+
+<h2>2. 기기 밖(국외)으로 보내는 정보</h2>
+<p>날씨를 불러올 때만 정보가 기기 밖(국외)으로 전송됩니다. 운영자가 Open-Meteo에 맡긴 처리 위탁(국외 이전)이며, 운영자는 이 정보를 따로 받거나 보관하지 않습니다. 이 경우 말고는 앱 이용 정보를 제3자에게 제공하거나 위탁·국외 이전하지 않습니다. 문의 이메일의 위탁·국외 이전은 10절에 따로 적습니다.</p>
+<ul>
+  <li>보내는 곳: OpenMeteo GmbH (open-meteo.com, info@open-meteo.com, Hintere Schilligmatte 6, 6463 Bürglen (UR), Switzerland)</li>
+  <li>국가: 스위스 (회사 소재지, 서버 위치는 공개되어 있지 않음)</li>
+  <li>보내는 때·방법: 날씨를 불러올 때마다 HTTPS로 전송</li>
+  <li>보내는 항목: 대략적인 위치 좌표(소수점 둘째 자리, 약 1km 단위), 통신 과정의 IP 주소</li>
+  <li>이용 목적: 현재 위치의 날씨 조회</li>
+  <li>보유·이용 기간: Open-Meteo 약관에 따라 서버 기록은 90일 후 삭제</li>
+  <li>거부 방법과 영향: 위치 권한을 허용하지 않으면 전송되지 않으며, 현재 위치 날씨에 맞춘 추천을 받을 수 없습니다.</li>
+</ul>
+<p class="muted">지역 이름(예: "서울특별시 중구")을 표시하기 위해 기기 운영체제의 위치 이름 변환 기능(Android의 Geocoder, iOS의 위치 서비스)이 좌표를 처리할 수 있습니다. 이때도 약 1km 단위로 줄인 좌표만 넘기며, 이 처리는 각 운영체제 제공자의 개인정보 정책을 따릅니다.</p>
+
+<p class="muted">미국 등 법이 요구하는 지역에서는, 앱이 앱스토어로부터 연령 구간과 보호자 동의 여부를 받아 연령에 맞는 기능 제공에만 쓰며, 저장하거나 기기 밖으로 보내지 않습니다. 그 밖의 지역 기기에서는 묻지 않습니다.</p>
+
+<h2>3. 권한</h2>
+<ul>
+  <li>카메라: 전신 사진과 옷 사진을 찍을 때 사용합니다.</li>
+  <li>위치: 대략적 위치(약 1km)만 요청하며 날씨 조회에만 사용합니다. 마지막 조회 결과만 기기 안에 남고 기기 밖에는 저장하지 않습니다.</li>
+  <li>알림: 아침 코디 알림에 사용합니다. 알림은 기기 안에서 만들어지며 서버를 거치지 않습니다.</li>
+</ul>
+<p>모든 권한은 거부해도 앱을 사용할 수 있으며, 휴대폰 설정에서 언제든 바꿀 수 있습니다.</p>
+
+<h2>4. 처리 근거</h2>
+<ul>
+  <li>위치 → 날씨 조회: 사용자가 요청한 날씨 기반 추천 기능의 제공(계약 이행)</li>
+  <li>문의 이메일: 문의에 답하기 위한 처리(사용자의 요청)</li>
+</ul>
+
+<h2>5. 자동 수집 장치</h2>
+<p>앱은 광고, 광고 식별자, 분석 도구, 쿠키, 사용자 추적을 사용하지 않습니다.</p>
+
+<h2>6. 만 14세 미만 아동</h2>
+<p>앱은 회원가입과 개인정보 수집이 없으며, 만 14세 미만 아동의 개인정보를 따로 수집하지 않습니다.</p>
+
+<h2>7. 정보의 파기</h2>
+<p>기기 안의 정보는 앱을 삭제하거나 휴대폰 설정에서 앱 데이터를 지우면 즉시 삭제됩니다. 국외로 전송된 정보는 위 표의 보유 기간에 따라 각 회사의 정책대로 삭제됩니다.</p>
+
+<h2>8. 이용자의 권리와 행사 방법</h2>
+<p>이용자는 자신의 개인정보에 대해 열람·정정·삭제·처리정지를 요구할 권리가 있습니다. 운영자는 이용자의 정보를 서버에 보관하지 않으므로, 기기 안의 정보는 앱 안에서 고치거나(설정·내 옷장) 앱 데이터를 지워 직접 행사할 수 있습니다. 국외로 전송된 정보에 대한 요청이나 그 밖의 문의는 아래 이메일로 보내 주시면 지체 없이 답하고 필요한 조치를 돕겠습니다. 유럽경제지역·영국 이용자는 거주 국가의 개인정보 감독기관에 민원을 제기할 수도 있습니다.</p>
+
+<h2>9. 안전성 확보 조치</h2>
+<ul>
+  <li>사진·신체 정보는 기기 안에서만 처리하고 백업에서 제외합니다.</li>
+  <li>기기 밖으로 보내는 모든 통신은 HTTPS로 암호화합니다.</li>
+  <li>기기 밖으로 보내는 위치는 약 1km 단위로 줄입니다.</li>
+</ul>
+
+<h2>10. 개인정보 보호책임자와 문의</h2>
+<p>운영자: 코지샌드<br>개인정보 보호책임자: Sewon Lee<br>이메일: <a href="mailto:support@cozysand.com">support@cozysand.com</a></p>
+<p>문의하실 때 보내 주신 이메일 주소와 문의 내용은 답변에만 쓰고, 처리를 마친 뒤 1년 동안 보관한 다음 지웁니다. 문의 메일의 수신·보관은 아래와 같이 위탁하며, 이는 국외 이전에 해당합니다.</p>
+<ul>
+  <li>위탁받는 자(이전받는 자): Google LLC (Google Workspace), 연락처: Google 개인정보처리방침의 문의 안내(<a href="https://policies.google.com/privacy">policies.google.com/privacy</a>)</li>
+  <li>국가: 미국 / 시기·방법: 이용자가 메일을 보낼 때 네트워크로 전송</li>
+  <li>항목: 이메일 주소, 문의 내용(이용자가 적은 내용) / 목적: 문의 답변</li>
+  <li>보유 기간: 처리를 마친 뒤 1년 / 거부 방법: 이메일 문의를 하지 않으면 됩니다(앱 사용에는 영향 없음).</li>
+</ul>
+<p>개인정보 침해에 대한 상담은 개인정보침해신고센터(privacy.kisa.or.kr, 국번 없이 118), 개인정보분쟁조정위원회(kopico.go.kr, 1833-6972)에도 하실 수 있습니다.</p>
+
+<h2>11. 출처 표시</h2>
+<p>날씨 데이터: <a href="https://open-meteo.com/">Open-Meteo.com</a> (CC BY 4.0). 앱에 들어 있는 룩·단품 옷 사진은 AI로 생성한 예시 이미지이며 실제 판매 상품이 아닙니다.</p>
+
+<h2>12. 변경 이력</h2>
+<p>2026년 11월 10일 최초 시행. 방침이 바뀌면 이 페이지에 시행일과 함께 알립니다.</p>
+
+<h2 lang="en">English summary</h2>
+<div lang="en">
+<p>Operator: Cozysand · Privacy officer: Sewon Lee · Contact: <a href="mailto:support@cozysand.com">support@cozysand.com</a> · Effective: November 10, 2026. The Korean text above prevails.</p>
+<ul>
+  <li><strong>Stays on your device:</strong> full-body and clothing photos, body measurements and the analysis of body shape, face shape and skin tone, your settings and outfit history, and the last weather result (with approximate coordinates and place name) used by the widget and morning notification. None of this is sent to us or anyone else, and it is excluded from device backups.</li>
+  <li><strong>Weather:</strong> to get your local weather, the app sends approximate coordinates (rounded to about 1 km) and, as part of the connection, your IP address over HTTPS to Open-Meteo (OpenMeteo GmbH, Switzerland), which deletes its server logs after 90 days. If you do not grant location permission, nothing is sent and local-weather recommendations are unavailable.</li>
+  <li>Where required by law (e.g., in some U.S. states), the app receives your age range and parental-consent status from the app store and uses it only to provide age-appropriate features. It is not stored or sent off the device, and devices elsewhere are not asked.</li>
+  <li>No accounts, ads, advertising IDs, analytics, cookies or tracking.</li>
+  <li>To access, correct or delete data, use the app (Settings, My closet) or clear the app's data; for anything else, email us. Inquiry emails are used only to reply, kept for one year after we finish handling them, and are received and stored by Google LLC (Google Workspace, USA).</li>
+</ul>
+<p>Weather data by <a href="https://open-meteo.com/">Open-Meteo.com</a> (CC BY 4.0). The outfit photos bundled in the app are AI-generated sample images, not products for sale.</p>
+</div>
+
+<p class="muted"><a href="terms.html">이용약관</a> · <a href="support.html">LOOKOUT 지원</a></p>
+</main>
+</body>
+</html>
